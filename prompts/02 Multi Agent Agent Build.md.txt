@@ -1,0 +1,16 @@
+Please create a multi agent system which has 
+
+	1. Orchestrator Agent for a Civil help desk in Local Government & helps citizens routes queries to the correct specialist for any of the following 5 categories of services - Waste & Recycling - Council Tax - Parking & Permits - Housing Repairs - Street Issues
+	-Classifies user request
+	-Routes to correct specialist
+	-Passes structured context
+	-Returns final merged response
+	-Asks clarifying questions before routing if necessary
+	
+	2. 5 Service Specialist agents.  One for each of the service categories
+	-waste_specialist
+	-counciltax_specialist
+	-parking_specialist
+	-housing_specialist
+	-street_specialist
+	Each specialist: - Handles only its domain - Returns structured output - Escalates when out of scope
